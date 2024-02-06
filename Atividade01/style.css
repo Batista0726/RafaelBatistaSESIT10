@@ -1,6 +1,7 @@
 body{
     padding: 20px;
     overflow-x: hidden;
+    background-color: grey;
  }
  .principal{
      width:97% ;
@@ -10,22 +11,50 @@ body{
  }
  
  .font-style{
-     border-bottom: 2px solid lightgray;
+     border-bottom: 2px solid black;
      font-size: 3rem;
-     font-family: 'Single Day', cursive;
+     font-family: Georgia, serif;
      padding-bottom: 15px;
  }
  .font-style02{
      font-size: 1.8rem;
-     color:darkgrey
+     color:black
  }
  
  .div-calculos{
-     background-color: lightgray;
+     background-color: white;
      padding: 10px;
      display: flex;
      flex-wrap: wrap;
      flex-direction: row;
      align-items: center;
      justify-content: space-evenly;
+ }
+
+
+ .child{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    align-items: center;
+    width: 200px;
+ }
+
+ button{
+    background-color: darkcyan;
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    width: 100px;
+    opacity: 0.8;
+ }
+
+ button:hover{
+    opacity: 1;
+    color: bisque;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
  }
