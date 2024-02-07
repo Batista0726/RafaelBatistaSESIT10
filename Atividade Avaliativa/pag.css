@@ -60,6 +60,7 @@ ul{
     align-items: center;
     justify-content: left;
     gap: 20px;
+    color: white;
 
 }
 
@@ -93,6 +94,7 @@ ul{
     background-color: #4C2427;
     padding-left: 20px;
     padding-top: 5px;
+    color: white;
 }
 
 .tecno{
@@ -101,6 +103,7 @@ ul{
     background-color: #744B33;
     padding-left: 20px;
     padding-top: 5px;
+    color: white;
 }
 
 .contact{
@@ -115,6 +118,7 @@ ul{
     gap: 20px;
     display: flex;
     padding-bottom: 50px;
+    color: white;
 }
 
 .leftcontact{
