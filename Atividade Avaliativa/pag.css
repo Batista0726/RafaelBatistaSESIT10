@@ -130,11 +130,41 @@ ul{
 
 .tecno{
     width: 100%;
-    height: 600px;
+    height: auto;
     background-color: #744B33;
-    padding-left: 20px;
     padding-top: 5px;
-    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    display: flex;
+    padding-bottom: 50px;
+    color: black;
+}
+
+.leftecno{
+    background-color: #d1c5b8;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+
+.midtecno{
+    background-color: #d1c5b8;
+    width: 400px;
+    height: 300px;
+}
+
+.rightecno{
+    background-color: #d1c5b8;
+    width: 400px;
+    height: 300px;
+
 }
 
 .contact{
@@ -160,6 +190,6 @@ ul{
 
 .rightcontact{
     background-color: #D1C5B8;
-    width: 600px;
-    height: 500px;
+    width: 500px;
+    height: 400px;
 }
