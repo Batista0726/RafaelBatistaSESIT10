@@ -75,8 +75,8 @@ ul{
 
 .img01{
     position: absolute;
-    left: -50px;
-    right: -100px;
+    left: -60px;
+    right: -50px;
     top: -40px;
     width: 500px;
     height: 500px;
@@ -92,9 +92,40 @@ ul{
     width: 100%;
     height: 600px;
     background-color: #4C2427;
-    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: right;
+    gap: 20px;
     color: white;
+    -webkit-flex-direction: row-reverse;
+}
+
+.rel2{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 100%;
+    border: 5px solid ;
+}
+
+.img02{
+    position: absolute;
+    left: -60px;
+    right: -50px;
+    top: -40px;
+    width: 500px;
+    height: 500px;
+    transition: all 200ms linear;
+}
+
+.img02:hover{
+    transform: scale(1.2);
+    transition: all 400ms linear;
 }
 
 .tecno{
@@ -118,7 +149,7 @@ ul{
     gap: 20px;
     display: flex;
     padding-bottom: 50px;
-    color: white;
+    color: black;
 }
 
 .leftcontact{
