@@ -133,38 +133,14 @@ ul{
     height: auto;
     background-color: #744B33;
     padding-top: 5px;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: top;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 20px;
     display: flex;
     padding-bottom: 50px;
     color: black;
-}
-
-.leftecno{
-    background-color: #d1c5b8;
-    width: 400px;
-    height: 300px;
-    display: flex;
-    padding-left: 20px;
-    padding-top: 20px;
-}
-
-
-
-.midtecno{
-    background-color: #d1c5b8;
-    width: 400px;
-    height: 300px;
-}
-
-.rightecno{
-    background-color: #d1c5b8;
-    width: 400px;
-    height: 300px;
-
 }
 
 .contact{
