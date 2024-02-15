@@ -14,7 +14,7 @@ document.getElementById("confMsg").textContent = mensagem;
 }
 
 function enviar(){
-    var numeroTelefone = "5541999999999"
+    var numeroTelefone = "5541991760161"
 
     var linkWhatsApp = "https://wa.me/" + numeroTelefone +  "?text=Nome: " +  nomeGlobal + " - " + mensagemGlobal;
 
