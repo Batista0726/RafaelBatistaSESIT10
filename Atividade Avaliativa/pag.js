@@ -2,21 +2,23 @@ var nomeGlobal;
 var mensagemGlobal;
 
 function conferirMensagemWhatsApp(){
-var nome = document.getElementById("nome").value;
-var mensagem = document.getElementById("mensagem").value;
+    var nome = document.getElementById("nome").value;
+    var mensagem = document.getElementById("mensagem").value;
 
-nomeGlobal = nome;
-mensagemGlobal = mensagem;
-console.log(nome);
-console.log(mensagem);
-document.getElementById("confNome").textContent = nome;
-document.getElementById("confMsg").textContent = mensagem;
+    nomeGlobal = nome;
+    mensagemGlobal = mensagem;
+
+    document.getElementById("confNome").textContent = nome;
+    document.getElementById("confMsg").textContent = mensagem;
 }
 
 function enviar(){
-    var numeroTelefone = "5541991760161"
+    if (nomeGlobal != "" || mensagemGlobal != ""){
 
-    var linkWhatsApp = "https://wa.me/" + numeroTelefone +  "?text=Nome: " +  nomeGlobal + " - " + mensagemGlobal;
+        var numeroTelefone = "5541991760161";
 
-    window.open(linkWhatsApp, "_blank");
+        var linkWhatsApp = "https://wa.me/" + numeroTelefone + "?text=Nome: " + nomeGlobal + " - " + mensagemGlobal;
+
+        window.open(linkWhatsApp, "_blank")
+    }
 }
