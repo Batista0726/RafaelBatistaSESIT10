@@ -6,7 +6,7 @@
 html{
     scroll-behavior: smooth;
     font-family: 'Diphylleia', serif;
-font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body{
@@ -50,7 +50,7 @@ ul{
 
 .perfil01{
     width: 100%;
-    height: 750px;
+    height: 600px;
     background-color: #1D080A;
     padding-left: 20px;
     padding-top: 5px;
@@ -60,7 +60,18 @@ ul{
     align-items: center;
     justify-content: left;
     gap: 20px;
+    color: white;
 
+}
+
+.caixarafa{
+    width: 1000px;
+    height: 75px;
+    background-color: #352122;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    padding: auto;
 }
 
 .rel{
@@ -74,8 +85,8 @@ ul{
 
 .img01{
     position: absolute;
-    left: -50px;
-    right: -100px;
+    left: -60px;
+    right: -50px;
     top: -40px;
     width: 500px;
     height: 500px;
@@ -89,19 +100,120 @@ ul{
 
 .perfil02{
     width: 100%;
-    height: 750px;
+    height: 600px;
     background-color: #4C2427;
-    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: right;
+    gap: 20px;
+    color: white;
+    -webkit-flex-direction: row-reverse;
+}
+
+.caixaAna{
+    width: 100%;
+    height: auto;
+    background-color: #352122;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    border-radius: 15px;
+    padding: auto;
+}
+
+.caixaAna2{
+    width: 100%;
+    height: auto;
+    background-color: #744B33;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+.rel2{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 100%;
+    border: 5px solid ;
+}
+
+.img02{
+    position: absolute;
+    left: -60px;
+    right: -50px;
+    top: -40px;
+    width: 500px;
+    height: 500px;
+    transition: all 200ms linear;
+}
+
+.img02:hover{
+    transform: scale(1.2);
+    transition: all 400ms linear;
 }
 
 .tecno{
     width: 100%;
-    height: 600px;
+    height: auto;
     background-color: #744B33;
-    padding-left: 20px;
-    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
+.tecnocaixa{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 80px;
+}
+
+.tecnospace{
+    position: relative;
+    overflow: hidden;
+    border-radius: 20%;
+    width: 150px;
+    height: 150px;
+    padding-bottom: 20px;
+}
+
+.tecnoimg{
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    scale: 90%;
+    right: 25px;
+    top: -37px;
+}
+
+.text{
+    width: 300px;
+    height: 450px;
+    background-color: #5c402f;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 5%;
+    flex-direction: row;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 
 .contact{
     width: 100%;
@@ -115,16 +227,11 @@ ul{
     gap: 20px;
     display: flex;
     padding-bottom: 50px;
+    color: black;
 }
 
-.leftcontact{
-    background-color: #d1c5b8;
+.midcontact{
+    background-color: #c9b39b;
     width: 600px;
-    height: 500px;
-}
-
-.rightcontact{
-    background-color: #D1C5B8;
-    width: 600px;
-    height: 500px;
+    height: 300px;
 }
