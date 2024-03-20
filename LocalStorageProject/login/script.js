@@ -26,3 +26,13 @@ function login(){
 }
 
 const fecharModal = () => document.getElementById('error-modal').style.display = "none"
+
+function formatarData(item){
+    var options = {
+        month: "numeric",
+        day: "numeric",
+        hour: "numeric",
+        minute: "numeric",
+    }
+    return item.toLocaleString("pt-BR", options)
+}
